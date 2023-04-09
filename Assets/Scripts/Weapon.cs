@@ -20,6 +20,6 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         GameObject bullet=Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-  bullet.GetComponent<Bullet>().direction=transform.localScale.x;
+        bullet.GetComponent<Bullet>().direction=transform.localScale.x;
     }
 }
