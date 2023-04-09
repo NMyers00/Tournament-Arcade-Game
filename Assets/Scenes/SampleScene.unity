@@ -315,6 +315,7 @@ MonoBehaviour:
   firePoint: {fileID: 1651931618}
   bulletPrefab: {fileID: 1309223392}
   fire: Fire1
+  firerate: 0.5
 --- !u!96 &462682471
 TrailRenderer:
   serializedVersion: 2
@@ -1065,6 +1066,7 @@ MonoBehaviour:
   firePoint: {fileID: 528635687}
   bulletPrefab: {fileID: 1309223392}
   fire: Fire2
+  firerate: 0.5
 --- !u!96 &1520157515
 TrailRenderer:
   serializedVersion: 2

@@ -7,6 +7,8 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public string fire;
+    public float firerate;
+    float nextFire;
     
     // Update is called once per frame
     void Update()
@@ -19,7 +21,12 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet=Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        bullet.GetComponent<Bullet>().direction=transform.localScale.x;
+        if(Time.time > nextFire)
+        {
+            nextFire = Time.time + firerate;
+            GameObject bullet=Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<Bullet>().direction=transform.localScale.x;
+        }
+        
     }
 }
