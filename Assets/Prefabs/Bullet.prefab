@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6052006624810431273}
   - component: {fileID: 6052006624810431279}
   - component: {fileID: 6052006624810431277}
-  - component: {fileID: -5845277115125713800}
   - component: {fileID: 6947873882839421395}
   m_Layer: 0
   m_Name: Bullet
@@ -125,18 +124,6 @@ MonoBehaviour:
   damage: 20
   rb: {fileID: 6052006624810431279}
   direction: 0
---- !u!114 &-5845277115125713800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6052006624810431275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91622b66ebc0e6140a9ad1f268896e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6947873882839421395
 BoxCollider2D:
   m_ObjectHideFlags: 0

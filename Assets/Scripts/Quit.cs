@@ -2,24 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DetectCollisions : MonoBehaviour
+public class Quit : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
 
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        
-        Destroy(gameObject);
-        Destroy(other.gameObject);
     }
+    
+
 }
