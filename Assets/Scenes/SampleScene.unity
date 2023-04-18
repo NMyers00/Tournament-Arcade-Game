@@ -1559,7 +1559,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!95 &1309223407
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1576,8 +1576,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1342767924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6153482819454936622, guid: be640634e0d709c42a4a501e60633f7e, type: 3}
@@ -1866,14 +1865,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1119669869070697776, guid: 491de8b17b16f9042b63b4846211676e, type: 3}
-      propertyPath: m_AnimatePhysics
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1119669869070697776, guid: 491de8b17b16f9042b63b4846211676e, type: 3}
-      propertyPath: m_Animations.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6052006624810431272, guid: 491de8b17b16f9042b63b4846211676e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2519,7 +2510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153482819454936622, guid: be640634e0d709c42a4a501e60633f7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.59
+      value: 21.45
       objectReference: {fileID: 0}
     - target: {fileID: 6153482819454936622, guid: be640634e0d709c42a4a501e60633f7e, type: 3}
       propertyPath: m_LocalPosition.y
