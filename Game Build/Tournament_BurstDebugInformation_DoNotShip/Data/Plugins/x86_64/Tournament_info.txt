@@ -1,0 +1,5 @@
+Tournament
+Tournament consists of two knights (players) who fight for blood and honor in this PVP arena shooter.
+Noah Myers - Design, Programming
+Michael Coll - Design, Programming
+Claudi Ramirez - Design, Art
